@@ -19,3 +19,16 @@ test('get started link', async ({ page }) => {
   // Kiểm tra bất cứ phần tử nào trên màn hình mà là  heading => kiểm tra tiêu đề lớn ở trên trang web mà hiền thị ra ngoài màn hình ví du: installation có hiển thị trên màn hình 
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+
+test('Truy cập trang web', async ({page}) => {
+  await page.goto('https://material.playwrightvn.com/');
+
+  await expect(page).toHaveTitle(/Tài liệu học automation test/)
+})
+
+test('Truy cập trang', async ({page}) => {
+  await page.goto('https://material.playwrightvn.com/');
+  await page.getByRole('link', {name: 'Bài học 1: Register Page (có đủ các element)'}).click();
+  await expect(page.getByRole('heading', {name: 'User Registration'})).toBeVisible();
+})
