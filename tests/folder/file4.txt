@@ -1,0 +1,2 @@
+// cd vào trong => cd folder
+//cd ra ngoài cd..
