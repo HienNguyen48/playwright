@@ -1,0 +1,8 @@
+'- Tạo folder mới
+- Thực hiện tạo 3 file 5, 6, 7
+-- tạo 2 commit(phiên bản)
+- Phiên bản 1: file5.txt
+- Phiên bản 2: file6.txt, file7.txt 
+ + C1: git add tests\folder\file6.txt tests\folder\file7.txt
+ + C2: git add .
+ 
