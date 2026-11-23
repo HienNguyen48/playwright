@@ -5,4 +5,9 @@
 - Phiên bản 2: file6.txt, file7.txt 
  + C1: git add tests\folder\file6.txt tests\folder\file7.txt
  + C2: git add .
- 
+ + C3: add riêng lẻ từng file 1
+ => màu file đã được commit màu đen
+ => file chưa được commit thì màu xanh
+
+ cd  folder: cd đi vào folder đó  => git add . => git commit -m"ndung"
+ cd ra khỏi folder: cd ..

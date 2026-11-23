@@ -1,8 +1,10 @@
-
-# Playwright
+# Playwright => bỏ qua cái dòng đấy thì sẽ có dấu # ở đầu
 node_modules/
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+.env
+node_modunle/
+

@@ -1,0 +1,9 @@
+let a = 10;
+b = ++a; // tăng a lên 11 rồi trả về => b có giá trị là 11
+console.log(a);
+console.log(b);
+
+let c = 10;
+d = c++; // trả về giá trị 10 cho d rồi mới tăng => d có giá trị là 10 & c có giá trị = 11
+console.log(c);
+console.log(d);
